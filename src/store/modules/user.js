@@ -64,6 +64,7 @@ const actions = {
         commit('SET_ROLES', roles)
         commit('SET_NAME', name)
         commit('SET_AVATAR', avatar)
+        console.log(avatar)
         commit('SET_INTRODUCTION', introduction)
         resolve(data)
       }).catch(error => {
